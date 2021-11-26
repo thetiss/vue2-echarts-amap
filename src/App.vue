@@ -2,19 +2,21 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <MigrationMap />
+    <!-- <MigrationMap /> -->
+    <IconMap />
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import MigrationMap from './components/MigrationMap.vue'
-
+// import MigrationMap from './components/MigrationMap.vue'
+import IconMap from './components/IconMap.vue'
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    MigrationMap,
+    // MigrationMap,
+    IconMap, // 灵活点标记
   }
 }
 </script>

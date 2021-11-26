@@ -1,4 +1,5 @@
 const amap = require('./amap.js')
+
 module.exports = {
-  ...amap,
+  ...amap, // 高德地图
 }

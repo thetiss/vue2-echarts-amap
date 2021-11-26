@@ -1,5 +1,45 @@
-// 熟悉echarts地图配置。模仿 https://www.makeapie.com/editor.html?c=xJuu5c6jy9
+// AMap.ElasticMarker 缩放层级与样式数组对应关系
+export const zoomStyleMapping = {
+  14:0,
+  15:0,
+  16:1,
+  17:1,
+  18:1,
+  19:2,
+  20:2,    
+};
 
+export const blue_icon_data = [{
+  name: '停车场',
+  position: [116.418563, 39.883041],
+  icon: 'https://a.amap.com/jsapi_demos/static/resource/img/停车场.png'
+}, {
+  name: '洗手间',
+  position: [116.415419, 39.883125],
+  icon: 'https://a.amap.com/jsapi_demos/static/resource/img/洗手间.png'
+}, {
+  name: '洗手间',
+  position: [116.410226, 39.88364],
+  icon: 'https://a.amap.com/jsapi_demos/static/resource/img/洗手间.png'
+}, {
+  name: '洗手间',
+  position: [116.412247, 39.887258],
+  icon: 'https://a.amap.com/jsapi_demos/static/resource/img/洗手间.png'
+}, {
+  name: '洗手间',
+  position: [116.412701, 39.874841],
+  icon: 'https://a.amap.com/jsapi_demos/static/resource/img/洗手间.png'
+}, {
+  name: '售票处',
+  position: [116.412442, 39.887925],
+  icon: 'https://a.amap.com/jsapi_demos/static/resource/img/门票.png'
+}, {
+  name: '售票处',
+  position: [116.413039, 39.874522],
+  icon: 'https://a.amap.com/jsapi_demos/static/resource/img/门票.png'
+}]
+
+// 熟悉echarts地图配置。模仿 https://www.makeapie.com/editor.html?c=xJuu5c6jy9
 // 地图散点数据源
 export const  Guangxi_Map_Scatter_Data = [{
   name: "南宁市",
